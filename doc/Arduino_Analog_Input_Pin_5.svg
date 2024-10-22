@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><svg  Version="1.1"  xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink"  xmlns:svg="http://www.w3.org/2000/svg"  width="786px" height="558px">  <style>text{font-size:12px;font-family:Consolas;fill:gray;text-anchor:start;}</style>  <style>svg { background-Color: black; color: white;}</style>
+  <defs>
+  <g id="e3692707-a8b8-466c-bf47-18527d79ab6e_alt">
+  <defs>
+  <g id="c816f092-e0c5-485e-99fd-91b4532959ca">
+  <rect x="0px" y="0px" width="230px" height="35px"
+    style="fill:rgb(136,0,21);fill-opacity:0.3;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="115px" y="13px">&lt;&lt;Enumerated_Type&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;" x="115px" y="28px">Analog_Pin_Id</text>
+  <rect x="0px" y="35px" width="230px" height="65px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Allows to model a data</text>
+  <text style="font-size:12px;" x="10px" y="63px">representing the identifier of</text>
+  <text style="font-size:12px;" x="10px" y="78px">an analog pin of an Arduino</text>
+  <text style="font-size:12px;" x="10px" y="93px">board.</text>
+  <rect x="0px" y="100px" width="230px" height="245px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="113px">ANALOG_PIN_0</text>
+  <text style="font-size:12px;" x="10px" y="128px">ANALOG_PIN_1</text>
+  <text style="font-size:12px;" x="10px" y="143px">ANALOG_PIN_2</text>
+  <text style="font-size:12px;" x="10px" y="158px">ANALOG_PIN_3</text>
+  <text style="font-size:12px;" x="10px" y="173px">ANALOG_PIN_4</text>
+  <text style="font-size:12px;" x="10px" y="188px">ANALOG_PIN_5</text>
+  <text style="font-size:12px;" x="10px" y="203px">ANALOG_PIN_6</text>
+  <text style="font-size:12px;" x="10px" y="218px">ANALOG_PIN_7</text>
+  <text style="font-size:12px;" x="10px" y="233px">ANALOG_PIN_8</text>
+  <text style="font-size:12px;" x="10px" y="248px">ANALOG_PIN_9</text>
+  <text style="font-size:12px;" x="10px" y="263px">ANALOG_PIN_10</text>
+  <text style="font-size:12px;" x="10px" y="278px">ANALOG_PIN_11</text>
+  <text style="font-size:12px;" x="10px" y="293px">ANALOG_PIN_12</text>
+  <text style="font-size:12px;" x="10px" y="308px">ANALOG_PIN_13</text>
+  <text style="font-size:12px;" x="10px" y="323px">ANALOG_PIN_14</text>
+  <text style="font-size:12px;" x="10px" y="338px">ANALOG_PIN_15</text>
+  </g>
+  </defs>
+  <use xlink:href="#c816f092-e0c5-485e-99fd-91b4532959ca" transform="translate(0,0)" />
+  <defs>
+  <g id="cee64fb2-4c18-4727-aeba-94f2cb1de1cf">
+  <rect x="0px" y="0px" width="230px" height="35px"
+    style="fill:rgb(136,0,21);fill-opacity:0.3;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="115px" y="13px">&lt;&lt;Fixed_Point_Type&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;" x="115px" y="28px">T_Pin_Voltage_5</text>
+  <rect x="0px" y="35px" width="230px" height="95px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Allows to model a data</text>
+  <text style="font-size:12px;" x="10px" y="63px">representing a voltage with a</text>
+  <text style="font-size:12px;" x="10px" y="78px">resolution of 5/1024 (0.004887)</text>
+  <text style="font-size:12px;" x="10px" y="93px">volt. </text>
+  <text style="font-size:12px;" x="10px" y="108px">(Typically used to represent a</text>
+  <text style="font-size:12px;" x="10px" y="123px">data from 0 to 5 V.)</text>
+  <rect x="0px" y="130px" width="230px" height="65px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="143px">Base : uint16</text>
+  <text style="font-size:12px;" x="10px" y="158px">Unit : V</text>
+  <text style="font-size:12px;" x="10px" y="173px">Resolution : 5/1024</text>
+  <text style="font-size:12px;" x="10px" y="188px">Offset : 0</text>
+  </g>
+  </defs>
+  <use xlink:href="#cee64fb2-4c18-4727-aeba-94f2cb1de1cf" transform="translate(250,0)" />
+  <defs>
+  <g id="e189a1cf-5f0f-453f-8f13-6e83bd913b04">
+  <rect x="0px" y="0px" width="308px" height="35px"
+    style="fill:rgb(34,177,76);fill-opacity:0.3;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="154px" y="13px">&lt;&lt;Client_Server_Interface&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;font-style:italic;" x="154px" y="28px">Analog_Input_5</text>
+  <rect x="0px" y="35px" width="308px" height="35px"
+    style="fill:rgb(34,177,76);fill-opacity:0.2;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Gathers operations allowing to manage an</text>
+  <text style="font-size:12px;" x="10px" y="63px">analog hardware input from 0 to 5 volt.</text>
+  <rect x="0px" y="70px" width="308px" height="20px"
+    style="fill:rgb(34,177,76);fill-opacity:0.2;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="83px">+ Get_Voltage( OUT voltage:T_Pin_Voltage_5 )</text>
+  </g>
+  </defs>
+  <use xlink:href="#e189a1cf-5f0f-453f-8f13-6e83bd913b04" transform="translate(0,365)" />
+  <defs>
+  <g id="e3692707-a8b8-466c-bf47-18527d79ab6e">
+  <defs>
+  <g id="ad92e823-9f05-4d9e-875e-3510cc2c2013">
+  <text style="font-size:12px;text-anchor:end;" x="172px" y="15px">Analog_Pin:Analog_Input_5</text>
+  <rect x="172px" y="18px" width="16px" height="16px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <line x1="162px" y1="26px" x2="172px" y2="26px"
+    style="stroke:rgb(255,255,255);stroke-width:1px"/>
+  <circle cx="154px" cy="26px" r="8px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  </g>
+  </defs>
+  <use xlink:href="#ad92e823-9f05-4d9e-875e-3510cc2c2013" transform="translate(0,20)" />
+  <rect x="188px" y="0px" width="230px" height="35px"
+    style="fill:rgb(255,255,255);fill-opacity:0.3;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="303px" y="13px">&lt;&lt;Component_Type&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;" x="303px" y="28px">Arduino_Analog_Input_Pin_5</text>
+  <rect x="188px" y="35px" width="230px" height="80px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <text style="font-size:12px;" x="198px" y="48px">The role of the</text>
+  <text style="font-size:12px;" x="198px" y="63px">Arduino_Analog_Input_Pin_5</text>
+  <text style="font-size:12px;" x="198px" y="78px">component is to abstract the</text>
+  <text style="font-size:12px;" x="198px" y="93px">Arduino layer allowing to get</text>
+  <text style="font-size:12px;" x="198px" y="108px">voltage from a analog input pin.</text>
+  <rect x="188px" y="115px" width="230px" height="20px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <text style="font-size:12px;" x="198px" y="128px">+ Arduino_Pin_Id : Analog_Pin_Id</text>
+  <rect x="188px" y="135px" width="230px" height="20px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  </g>
+  </defs>
+  <use xlink:href="#e3692707-a8b8-466c-bf47-18527d79ab6e" transform="translate(328,365)" />
+  </g>
+  </defs>
+
+  <use xlink:href="#e3692707-a8b8-466c-bf47-18527d79ab6e_alt" transform="translate(20,20)" />
+</svg>

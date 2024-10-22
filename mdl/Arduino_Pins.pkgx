@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Top_Level_Package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Arduino_Pins</Name>
+  <Identifier>35c7fc6a-6bb8-4e91-858d-a0408851b8bd</Identifier>
+  <Description>Gathering software elements allowing to abstract the Arduino platform for hardware I/O management.</Description>
+  <Packages />
+  <Types>
+    <Enumerated_Type>
+      <Name>Analog_Pin_Id</Name>
+      <Identifier>c816f092-e0c5-485e-99fd-91b4532959ca</Identifier>
+      <Description>Allows to model a data representing the identifier of an analog pin of an Arduino board.</Description>
+      <Enumerals>
+        <Enumeral>
+          <Name>ANALOG_PIN_0</Name>
+          <Identifier>b4de002c-fe76-4703-9989-85cb0ee3ddaf</Identifier>
+          <Description />
+        </Enumeral>
+        <Enumeral>
+          <Name>ANALOG_PIN_1</Name>
+          <Identifier>3e949838-d930-4f12-8046-dcc2ef390624</Identifier>
+          <Description />
+        </Enumeral>
+        <Enumeral>
+          <Name>ANALOG_PIN_2</Name>
+          <Identifier>d1ceb79a-5a82-478d-a394-64e8a4d152f2</Identifier>
+          <Description />
+        </Enumeral>
+        <Enumeral>
+          <Name>ANALOG_PIN_3</Name>
+          <Identifier>8bb996be-ff19-4143-9c67-802553d1d909</Identifier>
+          <Description />
+        </Enumeral>
+        <Enumeral>
+          <Name>ANALOG_PIN_4</Name>
+          <Identifier>6b4c7865-4447-418a-93fc-f5c904c7d49e</Identifier>
+          <Description />
+        </Enumeral>
+        <Enumeral>
+          <Name>ANALOG_PIN_5</Name>
+          <Identifier>14d3a73f-ec66-42ac-8997-0d9a93d75310</Identifier>
+          <Description />
+        </Enumeral>
+        <Enumeral>
+          <Name>ANALOG_PIN_6</Name>
+          <Identifier>7130d259-6d16-4627-b84c-4ff87435b6e5</Identifier>
+          <Description />
+        </Enumeral>
+        <Enumeral>
+          <Name>ANALOG_PIN_7</Name>
+          <Identifier>2b886525-71bf-4986-9728-91a830b302b7</Identifier>
+          <Description />
+        </Enumeral>
+        <Enumeral>
+          <Name>ANALOG_PIN_8</Name>
+          <Identifier>3d263d0c-63ba-449f-9883-87f48c87f993</Identifier>
+          <Description />
+        </Enumeral>
+        <Enumeral>
+          <Name>ANALOG_PIN_9</Name>
+          <Identifier>fcb6bb81-de9c-4c44-a710-ec891ca3e719</Identifier>
+          <Description />
+        </Enumeral>
+        <Enumeral>
+          <Name>ANALOG_PIN_10</Name>
+          <Identifier>521bbdcd-babc-4134-9c45-4ecf9cd80bb1</Identifier>
+          <Description />
+        </Enumeral>
+        <Enumeral>
+          <Name>ANALOG_PIN_11</Name>
+          <Identifier>d8219de4-917a-43c1-8122-ea3bef196613</Identifier>
+          <Description />
+        </Enumeral>
+        <Enumeral>
+          <Name>ANALOG_PIN_12</Name>
+          <Identifier>4678c912-3ef5-4bdd-bfce-e4fa819d3b0e</Identifier>
+          <Description />
+        </Enumeral>
+        <Enumeral>
+          <Name>ANALOG_PIN_13</Name>
+          <Identifier>9c9012b8-b768-4102-adf5-216b252dbd6a</Identifier>
+          <Description />
+        </Enumeral>
+        <Enumeral>
+          <Name>ANALOG_PIN_14</Name>
+          <Identifier>3288e379-faa7-4496-bb62-8b8ed236c99e</Identifier>
+          <Description />
+        </Enumeral>
+        <Enumeral>
+          <Name>ANALOG_PIN_15</Name>
+          <Identifier>8d16c843-0027-4ad1-9457-b10edf87c508</Identifier>
+          <Description />
+        </Enumeral>
+      </Enumerals>
+    </Enumerated_Type>
+  </Types>
+  <Interfaces />
+  <Component_Types>
+    <Component_Type>
+      <Name>Arduino_Digital_Output_Pin</Name>
+      <Identifier>733f0292-7007-4452-b5e2-961361d0f2ae</Identifier>
+      <Description>The role of the Arduino_Digital_Output_Pin component is to abstract the Arduino layer allowing to command a digital output pin.</Description>
+      <Configurations>
+        <Configuration_Parameter>
+          <Name>Arduino_Pin_Id</Name>
+          <Identifier>65966ace-2cea-4484-ae8f-2ae13b4307eb</Identifier>
+          <Description>Identifier of the digital pin of the Arduino board.
+From 0 to 69.</Description>
+          <Referenced_Type_Id>058963e7-375f-4f57-aceb-5a2f36b75490</Referenced_Type_Id>
+        </Configuration_Parameter>
+      </Configurations>
+      <Operations>
+        <OS_Operation>
+          <Name>Configure_Pin</Name>
+          <Identifier>724c5dec-5a3b-4d92-a506-0624725102fa</Identifier>
+          <Description>Allows to configure the pin of the Arduino board (identified by Arduino_Pin_Id) as an output pin.
+This operation shall be called once at initialization, before setting the level of the pin.</Description>
+        </OS_Operation>
+      </Operations>
+      <Provider_Ports>
+        <Provider_Port>
+          <Name>Digital_Pin</Name>
+          <Identifier>e7f6d6b6-0128-4fb0-9c9e-0fa6a3f4074b</Identifier>
+          <Description />
+          <Referenced_Interface_Id>a330e264-839e-477e-840a-14fe8bf973d1</Referenced_Interface_Id>
+        </Provider_Port>
+      </Provider_Ports>
+      <Requirer_Ports />
+    </Component_Type>
+    <Component_Type>
+      <Name>Arduino_Analog_Input_Pin_5</Name>
+      <Identifier>e3692707-a8b8-466c-bf47-18527d79ab6e</Identifier>
+      <Description>The role of the Arduino_Analog_Input_Pin_5 component is to abstract the Arduino layer allowing to get voltage from a analog input pin.</Description>
+      <Configurations>
+        <Configuration_Parameter>
+          <Name>Arduino_Pin_Id</Name>
+          <Identifier>2fc7745c-2cfe-49e7-a0d3-423f68a555b9</Identifier>
+          <Description>Identifier of the analog  pin of the Arduino board.</Description>
+          <Referenced_Type_Id>c816f092-e0c5-485e-99fd-91b4532959ca</Referenced_Type_Id>
+        </Configuration_Parameter>
+      </Configurations>
+      <Operations />
+      <Provider_Ports>
+        <Provider_Port>
+          <Name>Analog_Pin</Name>
+          <Identifier>ad92e823-9f05-4d9e-875e-3510cc2c2013</Identifier>
+          <Description />
+          <Referenced_Interface_Id>e189a1cf-5f0f-453f-8f13-6e83bd913b04</Referenced_Interface_Id>
+        </Provider_Port>
+      </Provider_Ports>
+      <Requirer_Ports />
+    </Component_Type>
+  </Component_Types>
+  <Compositions />
+</Top_Level_Package>
