@@ -149,6 +149,43 @@ This operation shall be called once at initialization, before setting the level 
       </Provider_Ports>
       <Requirer_Ports />
     </Component_Type>
+    <Component_Type>
+      <Name>Arduino_Digital_Input_Pin</Name>
+      <Identifier>4eeca9ec-7286-40ae-967e-7332053b6d5b</Identifier>
+      <Description>The role of the Arduino_Digital_Intput_Pin component is to abstract the Arduino layer allowing to get the state of a digital input pin.</Description>
+      <Configurations>
+        <Configuration_Parameter>
+          <Name>Arduino_Pin_Id</Name>
+          <Identifier>3ff8b76f-be0d-4fed-b60e-ed507fb79ef8</Identifier>
+          <Description>Identifier of the digital pin of the Arduino board.
+From 0 to 69.</Description>
+          <Referenced_Type_Id>058963e7-375f-4f57-aceb-5a2f36b75490</Referenced_Type_Id>
+        </Configuration_Parameter>
+        <Configuration_Parameter>
+          <Name>Pin_Has_Pull_Up</Name>
+          <Identifier>09a800ae-f7e6-43d4-a09e-7e6c323aba42</Identifier>
+          <Description>Allows to turn on an internal resistor that connects the digital pin to the board's voltage supply.</Description>
+          <Referenced_Type_Id>5df8e979-be4c-4790-87a7-f8ee053c4162</Referenced_Type_Id>
+        </Configuration_Parameter>
+      </Configurations>
+      <Operations>
+        <OS_Operation>
+          <Name>Configure_Pin</Name>
+          <Identifier>28e3e40d-b796-40f5-8045-5d8e76c8828e</Identifier>
+          <Description>Allows to configure the pin of the Arduino board (identified by Arduino_Pin_Id) as an input pin.
+This operation shall be called once at initialization, before reading the level of the pin.</Description>
+        </OS_Operation>
+      </Operations>
+      <Provider_Ports>
+        <Provider_Port>
+          <Name>Digital_Pin</Name>
+          <Identifier>c6a19af0-4b68-4a27-b0dd-39f4f7996ca6</Identifier>
+          <Description />
+          <Referenced_Interface_Id>d8db64e8-9547-4b4b-ab10-ce3984553d49</Referenced_Interface_Id>
+        </Provider_Port>
+      </Provider_Ports>
+      <Requirer_Ports />
+    </Component_Type>
   </Component_Types>
   <Compositions />
 </Top_Level_Package>
